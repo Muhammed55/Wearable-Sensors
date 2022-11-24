@@ -1,0 +1,44 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:/androidKeys/HOSKeys/debug_HOSp12.p12')
+            storePassword '00000019A9004DE30F566BBA0C834E561F20B01A1415968EC7164E9CB4C988D23AB96630926DB4B63F'
+            keyAlias = 'debug_HOSp12'
+            keyPassword '00000019A9E287B9F5EBD60EB80D1475447455808CC6538C3850734CD56A03E3EDA476FC4DFE5ADD1B'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\androidKeys\\HOSKeys\\AllDevicesDebugDebug.p7b')
+            certpath file('D:\\androidKeys\\HOSKeys\\Debug Certificate.cer')
+        }
+    }
+    compileSdkVersion 6
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.1.0.5'
+        classpath 'com.huawei.ohos:decctest:1.2.7.11'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+}

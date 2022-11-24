@@ -1,0 +1,93 @@
+{
+  "app": {
+    "vendor": "example",
+    "bundleName": "com.mo55.test.wearenginehos",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "mainAbility": "com.mo55.test.wearenginehos.MainAbility",
+    "deviceType": [
+      "wearable"
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "visible": true,
+        "name": "com.mo55.test.wearenginehos.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.mo55.test.wearenginehos",
+    "name": ".MyApplication",
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/punch/punch",
+          "pages/animation/animation",
+          "pages/heart/heart"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 454,
+          "autoDesignWidth": true
+        }
+      }
+    ],
+    "reqPermissions": [
+      {
+        "reason": "Using the gryoscope to track the device's movement",
+        "usedScene": {
+          "ability": [
+            "com.mo55.test.wearenginehos.MainAbility"
+          ],
+          "when": "inuse"
+        },
+        "name": "ohos.permission.GYROSCOPE"
+      },
+      {
+        "reason": "Using the acceloremeter to track the device's movement",
+        "usedScene": {
+          "ability": [
+            "com.mo55.test.wearenginehos.MainAbility"
+          ],
+          "when": "inuse"
+        },
+        "name": "ohos.permission.ACCELEROMETER"
+      },
+      {
+        "reason": "Using the heart-rate data to track the heart rate",
+        "usedScene": {
+          "ability": [
+            "com.mo55.test.wearenginehos.MainAbility"
+          ],
+          "when": "inuse"
+        },
+        "name": "ohos.permission.READ_HEALTH_DATA"
+      }
+    ]
+  }
+}

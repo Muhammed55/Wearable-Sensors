@@ -1,0 +1,4 @@
+<div class="container">
+    <text style="font-size: 14px;">{{time}}</text>
+    <text class="title">Heart rate: {{heartRate}}</text>
+</div>
