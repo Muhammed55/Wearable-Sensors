@@ -1,0 +1,7 @@
+<div class="container">
+    <button class="title" onclick="onPunchButtonClick">Punch</button>
+    <button class="title" onclick="onHeartRateButtonClick">Heart Rate</button>
+    <button class="title" onclick="onGetPeerDeviceButtonClick">Get peer device</button>
+    <button class="title" onclick="onPing">Ping</button>
+    <button class="title" onclick="onSendMessageClick">Send message</button>
+</div>
