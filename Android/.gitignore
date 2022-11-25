@@ -1,0 +1,5 @@
+/.idea
+/keystore
+local.properties
+/.gradle
+/app/build

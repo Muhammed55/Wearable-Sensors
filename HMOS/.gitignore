@@ -1,0 +1,8 @@
+.gradle
+.idea
+entry/.preview
+entry/build
+/signing
+
+local.properties
+build
