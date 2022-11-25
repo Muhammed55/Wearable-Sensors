@@ -1,7 +1,0 @@
-<!-- xxx.hml -->
-<div class="container">
-    <div class="simpleSize">
-        <text class="simpleAnimation simpleSize" style="animation-play-state: {{playState}}; font-size: {{myFontSize}}px;">hello</text>
-    </div>
-    <text onclick="toggleState">animation-play-state: {{playState}}</text>
-</div>

@@ -37,8 +37,10 @@ export default {
 
     sendMessage(heartRate) {
         var builderClient = new Builder();
-        var messageStr = "Hello";
-        builderClient.setDescription(heartRate);
+        var messageStr = '{"heartRate":' + heartRate + '}';
+        console.log("MyLogMessageRightHere");
+        console.log(messageStr);
+        builderClient.setDescription(messageStr);
         var message = new Message();
         message.builder = builderClient;
         p2pClient.send(message, {

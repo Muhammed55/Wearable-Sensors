@@ -48,7 +48,9 @@
           "pages/index/index",
           "pages/punch/punch",
           "pages/animation/animation",
-          "pages/heart/heart"
+          "pages/heart/heart",
+          "pages/proximity/proximity",
+          "pages/proximity/proximity"
         ],
         "name": "default",
         "window": {

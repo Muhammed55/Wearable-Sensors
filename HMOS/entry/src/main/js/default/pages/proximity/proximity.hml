@@ -1,0 +1,4 @@
+<div class="container">
+    <text class="title">Light: {{light}}</text>
+    <text class="title" style="height: 40px;">Wearing: {{bodyState}}</text>
+</div>

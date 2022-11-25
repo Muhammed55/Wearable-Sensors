@@ -83,5 +83,10 @@ export default {
                 console.log("Message sending code: " + result.code + " data: " + result.data);
             }
         });
+    },
+    onProximityButtonClick() {
+        router.push({
+            uri: 'pages/proximity/proximity'
+        });
     }
 }
