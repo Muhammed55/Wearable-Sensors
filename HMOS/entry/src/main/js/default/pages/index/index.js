@@ -30,7 +30,6 @@ export default {
     onPunchButtonClick() {
         router.push({
             uri: 'pages/punch/punch'
-//            uri: 'pages/animation/animation'
         });
     },
     onHeartRateButtonClick() {
@@ -84,9 +83,9 @@ export default {
             }
         });
     },
-    onProximityButtonClick() {
+    onSensorsButtonClick() {
         router.push({
-            uri: 'pages/proximity/proximity'
+            uri: 'pages/sensors/sensors'
         });
     }
 }

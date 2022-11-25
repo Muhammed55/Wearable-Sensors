@@ -47,10 +47,8 @@
         "pages": [
           "pages/index/index",
           "pages/punch/punch",
-          "pages/animation/animation",
           "pages/heart/heart",
-          "pages/proximity/proximity",
-          "pages/proximity/proximity"
+          "pages/sensors/sensors",
         ],
         "name": "default",
         "window": {
@@ -60,16 +58,6 @@
       }
     ],
     "reqPermissions": [
-      {
-        "reason": "Using the gryoscope to track the device's movement",
-        "usedScene": {
-          "ability": [
-            "com.mo55.test.wearenginehos.HiWearMainAbility"
-          ],
-          "when": "inuse"
-        },
-        "name": "ohos.permission.GYROSCOPE"
-      },
       {
         "reason": "Using the acceloremeter to track the device's movement",
         "usedScene": {

@@ -6,7 +6,7 @@
         <button class="button" onclick="onHeartRateButtonClick">Heart Rate</button>
     </list-item>
     <list-item class="list-item">
-        <button class="button" onclick="onProximityButtonClick">Proximity sensors</button>
+        <button class="button" onclick="onSensorsButtonClick">Other sensors</button>
     </list-item>
     <list-item class="list-item">
         <button class="button" onclick="onGetPeerDeviceButtonClick">Get peer device</button>
