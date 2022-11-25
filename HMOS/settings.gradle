@@ -1,0 +1,2 @@
+rootProject.name = 'HSD'
+include ':entry'

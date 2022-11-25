@@ -1,0 +1,4 @@
+<div class="container">
+    <text style="font-size: 14px; margin-top: 5px;">{{time}}</text>
+    <text class="heartRate">Heart rate:\n{{heartRate}}</text>
+</div>
