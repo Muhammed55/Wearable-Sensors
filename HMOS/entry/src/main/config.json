@@ -9,7 +9,7 @@
   },
   "deviceConfig": {},
   "module": {
-    "mainAbility": "com.mo55.test.wearenginehos.MainAbility",
+    "mainAbility": "com.mo55.test.wearenginehos.HiWearMainAbility",
     "deviceType": [
       "wearable"
     ],
@@ -26,7 +26,7 @@
           }
         ],
         "visible": true,
-        "name": "com.mo55.test.wearenginehos.MainAbility",
+        "name": "com.mo55.test.wearenginehos.HiWearMainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:entry_MainAbility",
@@ -64,7 +64,7 @@
         "reason": "Using the gryoscope to track the device's movement",
         "usedScene": {
           "ability": [
-            "com.mo55.test.wearenginehos.MainAbility"
+            "com.mo55.test.wearenginehos.HiWearMainAbility"
           ],
           "when": "inuse"
         },
@@ -74,7 +74,7 @@
         "reason": "Using the acceloremeter to track the device's movement",
         "usedScene": {
           "ability": [
-            "com.mo55.test.wearenginehos.MainAbility"
+            "com.mo55.test.wearenginehos.HiWearMainAbility"
           ],
           "when": "inuse"
         },
@@ -84,7 +84,7 @@
         "reason": "Using the heart-rate data to track the heart rate",
         "usedScene": {
           "ability": [
-            "com.mo55.test.wearenginehos.MainAbility"
+            "com.mo55.test.wearenginehos.HiWearMainAbility"
           ],
           "when": "inuse"
         },
