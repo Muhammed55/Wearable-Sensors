@@ -18,28 +18,7 @@
 }
 
 .countdownTimer {
-/*    border-width: 2px;*/
-/*    border-color: red;*/
-/*    border-radius: 2px;*/
     width: 10%;
-    height: 10%;
+    height: 30%;
     font-size: 18px;
-/*    background-color: red;*/
-    animation-name: Go;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: steps(8, end);
-}
-@keyframes Go
-{
-    from { 
-        background-position: 0% 0%;
-        background-color: red;
-    }
-    to { 
-        background-position: 100% 0%;
-        background-color: green;
-    }
 }

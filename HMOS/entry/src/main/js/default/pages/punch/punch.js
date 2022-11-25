@@ -60,6 +60,6 @@ export default {
     },
 
     onDestroy() {
-
+        sensor.unsubscribeAccelerometer();
     }
 }

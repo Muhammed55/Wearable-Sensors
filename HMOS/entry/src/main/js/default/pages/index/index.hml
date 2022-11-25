@@ -1,14 +1,14 @@
 <list class="container">
-    <list-item>
-        <button class="title" onclick="onPunchButtonClick">Punch</button>
+    <list-item class="list-item">
+        <button class="button" onclick="onPunchButtonClick">Punch</button>
     </list-item>
-    <list-item>
-        <button class="title" onclick="onHeartRateButtonClick">Heart Rate</button>
+    <list-item class="list-item">
+        <button class="button" onclick="onHeartRateButtonClick">Heart Rate</button>
     </list-item>
-    <list-item>
-        <button class="title" onclick="onProximityButtonClick">Proximity sensors</button>
+    <list-item class="list-item">
+        <button class="button" onclick="onProximityButtonClick">Proximity sensors</button>
     </list-item>
-    <list-item>
-        <button class="title" onclick="onGetPeerDeviceButtonClick">Get peer device</button>
+    <list-item class="list-item">
+        <button class="button" onclick="onGetPeerDeviceButtonClick">Get peer device</button>
     </list-item>
 </list>

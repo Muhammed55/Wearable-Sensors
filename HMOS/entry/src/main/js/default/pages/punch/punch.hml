@@ -1,5 +1,5 @@
 <stack class="container">
-    <button show="{{!countDownStarted}}" onclick="onStartClick">Start punching</button>
+    <button style="height: 20%; padding: 10px;" show="{{!countDownStarted}}" onclick="onStartClick">Start punching</button>
     <div show="{{countDownStarted && countDownNumber > 0}}" class="countdownTimer">
         <text>{{countDownNumber}}</text>
     </div>
